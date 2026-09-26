@@ -106,3 +106,24 @@
     right: 0;
     z-index: 1;
 }
+
+@media screen and (max-width:1170px){
+    img{
+        display: none;
+    }
+
+    .shape{
+        display: none;
+    }
+
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #cta{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
